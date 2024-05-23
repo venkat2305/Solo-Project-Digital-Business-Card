@@ -2,13 +2,13 @@ import React from "react"
 import ReactDom from "react-dom/client"
 import App from "./App"
 
-function Page(){
-    return(
+function Page() {
+    return (
         <div>
-            <App/>
+            <App />
         </div>
     )
 }
 
 const root = ReactDom.createRoot(document.getElementById("root"))
-root.render(<Page/>)
+root.render(<Page />)
